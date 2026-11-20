@@ -1,0 +1,1 @@
+mt76x02_mac_process_rx ret=0 len=42 flag=0 enc=0 bw=0 rate=0 nss=0 enc_flags=0 chains=0x3 sig=-48,-58 freq=5180 band=1 aggr=0 qos=0 seq=0 iv=000000000000 data=80000000ffffffffffff66778899aabb66778899aabb00000000000000000000

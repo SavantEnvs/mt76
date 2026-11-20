@@ -1,0 +1,11 @@
+project: savantenvs/mt76
+target: mt76-test-dump
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mt76-test-dump/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_mt76_test_dump
+    libfuzzer: true
+    timeout: 5
