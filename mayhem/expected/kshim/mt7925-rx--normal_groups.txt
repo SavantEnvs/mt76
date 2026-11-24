@@ -1,0 +1,1 @@
+rx_skb[MAIN] ret=0 len=54 flag=0x4020200 enc=3 bw=0 rate=7 nss=1 enc_flags=0 chains=0xf sig=-62,-62 freq=5180 band=1 aggr=0 qos=0 seq=0 iv=000000000000 data=fcc7720055000b00400000008801000000112233445566778899aabb00112233

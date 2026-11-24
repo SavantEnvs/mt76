@@ -1,0 +1,11 @@
+state=tx_frames
+mtd_part=factory
+mtd_offset=32768
+tx_count=1000
+tx_length=1024
+tx_rate_mode=vht
+tx_rate_nss=2
+tx_rate_idx=7
+tx_antenna=3
+tx_power=20,18
+freq_offset=5

@@ -1,0 +1,11 @@
+project: savantenvs/mt76
+target: mt76-connac2-fw-load
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mt76-connac2-fw-load/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_mt76_connac2_fw_load
+    libfuzzer: true
+    timeout: 5

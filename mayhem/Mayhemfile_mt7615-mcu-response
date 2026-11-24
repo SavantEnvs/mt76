@@ -1,0 +1,11 @@
+project: savantenvs/mt76
+target: mt7615-mcu-response
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mt7615-mcu-response/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_mt7615_mcu_response
+    libfuzzer: true
+    timeout: 5

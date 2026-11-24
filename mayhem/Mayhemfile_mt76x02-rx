@@ -1,0 +1,11 @@
+project: savantenvs/mt76
+target: mt76x02-rx
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mt76x02-rx/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_mt76x02_rx
+    libfuzzer: true
+    timeout: 5

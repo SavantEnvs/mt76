@@ -1,0 +1,12 @@
+state=unknown (9)
+tx_pending=1
+tx_queued=2
+tx_done=3
+rx_packets=123456789012
+rx_fcs_error=42
+last_freq_offset=-7
+last_rcpi=100,101
+last_ib_rssi=-40,-41
+last_wb_rssi=-30
+last_snr=25
+rx_per=0.00%

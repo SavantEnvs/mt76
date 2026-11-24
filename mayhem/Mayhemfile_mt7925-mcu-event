@@ -1,0 +1,11 @@
+project: savantenvs/mt76
+target: mt7925-mcu-event
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mt7925-mcu-event/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_mt7925_mcu_event
+    libfuzzer: true
+    timeout: 5
